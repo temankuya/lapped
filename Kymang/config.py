@@ -16,4 +16,4 @@ MEMBER = [int(x) for x in (os.environ.get("MEMBER", "160").split())]
 LOG_GRP = int(os.environ.get("LOG_GRP", "-1002086067332"))
 BOT_ID = int(os.environ.get("BOT_ID", "7205564649"))
 
-KITA = [int(x) for x in (os.environ.get("KITA", "21037639").split())]
+KITA = [int(x) for x in (os.environ.get("KITA", "6946216221").split())]
