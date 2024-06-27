@@ -184,7 +184,7 @@ async def start_bot(c, m):
     else:
         buttons = await button_pas_pertama(c)
         await m.reply(
-            f"**Hello {m.from_user.mention}**\n\n**Join dulu ke 2 Channel dibawah, setelah join bisa klik Coba Lagi dan Start ulang seperti biasa untuk menonton Konten VIP dari Pemersa.TV.**",
+            f"**Hello {m.from_user.mention}**\n\n**Join ke 2 Channel dibawah, setelah Join bisa klik Coba Lagi dan Start ulang seperti biasa untuk menonton Konten VIP dari Pemersa.TV yang di Update Setiap Hari.**",
             reply_markup=InlineKeyboardMarkup(buttons),
         )
 
@@ -212,7 +212,7 @@ async def start_bots(c, m):
         return await m.reply_text("Force-Sub kosong atau belum ada di database", quote=True)
     try:
         await m.reply(
-            f"**Hello {m.from_user.mention}\n\n**Join ke 2 Channel dibawah untuk Update Konten Setiap Hari!**",
+            f"**Hello {m.from_user.mention}\n\n**Join ke 2 Channel dibawah untuk Update Konten VIP setiap hari, GRATIS!**",
             reply_markup=InlineKeyboardMarkup(buttons),
         )
     except Exception as e:
