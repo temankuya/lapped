@@ -56,7 +56,7 @@ async def force_button(c, m):
         except:
             link = await c.export_chat_invite_link(x["sub"])
         links.append(link)
-    keyboard = [InlineKeyboardButton("Join Dulu", url=h) for h in links]
+    keyboard = [InlineKeyboardButton("Join Channel", url=h) for h in links]
     for i, board in enumerate(keyboard, start=1):
         temp.append(board)
         if i % 2 == 0:
