@@ -212,7 +212,7 @@ async def start_bots(c, m):
         return await m.reply_text("Force-Sub kosong atau belum ada di database", quote=True)
     try:
         await m.reply(
-            f"**Hello {m.from_user.mention}\n\nAnda harus bergabung terlebih dahulu untuk melihat file yang saya bagikan\nSilakan Join Ke Channel Terlebih Dahulu**",
+            f"**Hello {m.from_user.mention}\n\nGabung ke 2 Channel di bawah, setelah bergabung bisa klik Coba Lagi dan Start ulang.\nakan ada Video Full dari Konten yang kami sediakan**",
             reply_markup=InlineKeyboardMarkup(buttons),
         )
     except Exception as e:
