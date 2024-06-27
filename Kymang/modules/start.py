@@ -184,7 +184,7 @@ async def start_bot(c, m):
     else:
         buttons = await button_pas_pertama(c)
         await m.reply(
-            f"**Hello {m.from_user.mention}**\n\n**Gabung ke 2 Channel di bawah, setelah bergabung bisa klik Coba Lagi dan Start ulang seperti biasa.\nAkan ada Video Full dari Konten yang kami sediakan untuk kalian!**",
+            f"**Hello {m.from_user.mention}**\n\n**Join dulu ke 2 Channel dibawah, setelah join bisa klik Coba Lagi dan Start ulang seperti biasa untuk menonton Konten VIP dari Pemersa.TV.**",
             reply_markup=InlineKeyboardMarkup(buttons),
         )
 
