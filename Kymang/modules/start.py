@@ -184,7 +184,7 @@ async def start_bot(c, m):
     else:
         buttons = await button_pas_pertama(c)
         await m.reply(
-            f"**Hello {m.from_user.mention}**\n\n**Saya dapat menyimpan file pribadi di Channel Tertentu dan pengguna lain dapat mengaksesnya dari link khusus.**",
+            f"**Hello {m.from_user.mention}**\n\n**Gabung ke 2 Channel di bawah, setelah bergabung bisa klik Coba Lagi dan Start ulang seperti biasa.\nAkan ada Video Full dari Konten yang kami sediakan untuk kalian!**",
             reply_markup=InlineKeyboardMarkup(buttons),
         )
 
@@ -212,7 +212,7 @@ async def start_bots(c, m):
         return await m.reply_text("Force-Sub kosong atau belum ada di database", quote=True)
     try:
         await m.reply(
-            f"**Hello {m.from_user.mention}\n\nGabung ke 2 Channel di bawah, setelah bergabung bisa klik Coba Lagi dan Start ulang.\nakan ada Video Full dari Konten yang kami sediakan**",
+            f"**Hello {m.from_user.mention}\n\n*Join ke 2 Channel dibawah untuk Update Konten Setiap Hari!*",
             reply_markup=InlineKeyboardMarkup(buttons),
         )
     except Exception as e:
