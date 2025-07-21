@@ -16,4 +16,4 @@ RUN pip install --no-cache-dir --upgrade pip \
     && pip install --no-cache-dir -r requirements.txt
 
 # Jalankan main.py
-CMD ["python3", "-m", "Kymang"]
+CMD ["bash", "reng"]
